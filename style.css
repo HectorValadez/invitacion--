@@ -1,0 +1,38 @@
+html, body {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+	height: 100%;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+h1{
+    position:absolute;
+    top:29px;
+    font-size:55px;
+    color: white;
+} 
+#centrado{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    pointer-events: none
+    ;
+}
+#invitado{
+    pointer-events: auto;
+}
+.modal-backdrop {
+    background-color: transparent;
+ }
