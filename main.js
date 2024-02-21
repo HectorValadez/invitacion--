@@ -1,5 +1,14 @@
 'use strict';
+function reproducir() {
+    document.getElementById("musica").play()
+    document.getElementById("musica").volume=0.4
+    document.getElementById("fiesta").style.display="block"
+    setTimeout(extinguir,5000)
 
+}
+function extinguir() {
+    document.getElementById("fiesta").style.display="none"
+}
 const canvas = document.getElementsByTagName('canvas')[0];
 canvas.width = canvas.clientWidth;
 canvas.height = canvas.clientHeight;
