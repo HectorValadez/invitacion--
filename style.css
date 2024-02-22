@@ -113,7 +113,11 @@ button a:visited{
   text-decoration: none;
   color: white;
   }
-  
+  button a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    }
 .btn-12 {
   position: relative;
   right: 20px;
