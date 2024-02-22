@@ -109,7 +109,11 @@ button a{
 text-decoration: none;
 color: white;
 }
-
+button a:visited{
+  text-decoration: none;
+  color: white;
+  }
+  
 .btn-12 {
   position: relative;
   right: 20px;
